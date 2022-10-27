@@ -1,5 +1,6 @@
 # web1
 
-- "Aula 1" não faz parte do projeto
+- <b>"Aula 1"</b> não faz parte do projeto
 
-- "assets" e "Saiyan-Sans" pedir o zip no drive
+- "assets" e "Saiyan-Sans": <a href="https://drive.google.com/drive/folders/107FfimG3iOhT-QzT1Y6ZcbMmSWscGw7C?usp=sharing">
+arquivos no drive </a>
