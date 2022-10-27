@@ -24,6 +24,18 @@ section#menu{
     color: #FFFFFF;
 }
 
+img.banner{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); /*desl x, desl y, desfoque, cor*/
+}
+
 /* Hierarquia */
 section#menu>header{
     display: flex;
@@ -33,6 +45,7 @@ section#menu>header{
 section#menu>header>span{
     margin-left: 15px;
     font-family: 'Saiyan-Sans', serif;
+    font-size: 20px;
 }
 
 nav>a{
@@ -54,4 +67,34 @@ header>nav>span{
 
 header>nav>span+span{
     text-decoration: underline;
+}
+
+main>div{
+    background-color: #7FCB07;
+    width: 75vw; /* Cerca de 75% da tela */
+    margin: 30px auto; /* Centralizando a div */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main>div>h1{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card>h2{
+    color: #7FCB07;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #E55E2E;
+    padding: 10px;
+}
+
+footer>p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 10px;
 }
