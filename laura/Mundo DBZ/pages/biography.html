@@ -5,6 +5,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/base.css">
+        <style>
+            #colunas{
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 20px;
+            }
+            .card:nth-child(1){
+                width: 20vw;
+            }
+            .card:nth-child(2){
+                width: 60vw;
+            }
+            .card > h2{
+                text-align: center;
+                margin-bottom: 16px;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -28,14 +45,15 @@
                 </span>
                 <span>Biografia do autor</span>
             </nav>
-            <img src="../img/akira.png">
+            <img src="../img/akira.png" alt="Foto do senhor Akira Rariyama"
+            class="banner">
         </header>
         <main>
             <div>
                 <h1>Akira Toriyama</h1>
             </div>
-            <section>
-                <article>
+            <section id="colunas">
+                <article class="card">
                     <h2>Curiosidades</h2>
                     <p>
                         <b>Nome:</b> Akira Toriyama
@@ -57,7 +75,7 @@
                         <b>Outras obras:</b> Dr. Slump
                     </p>
                 </article>
-                <article>
+                <article class="card">
                     <h2>Um pouco da história</h2>
                     <p>
                         Akira começou a trabalhar como designer gráfico e foi aos 23 anos que entrou
@@ -88,7 +106,7 @@
         </main>
         <footer>
             <p>
-                &copy; Desenvolvido por laura - 2022
+                &copy; desenvolvido por laura - 2022
             </p>
         </footer>
     </body>
