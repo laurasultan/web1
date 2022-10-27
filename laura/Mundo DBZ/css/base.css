@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face{
+    font-family: 'Saiyan-Sans';
+    src: url('Saiyan-Sans.ttf');
+}
+
+/* Elementos */
+*{
+    /* Resetar o CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Identificadores e classes */
+section#menu{
+    background-color: #E55E2E;
+    display: flex;
+    align-items: center; /* Eixo vertical */
+    justify-content: space-between; /* Eixo horizontal */
+    padding: 7px 10px;
+    color: #FFFFFF;
+}
+
+/* Hierarquia */
+section#menu>header{
+    display: flex;
+    align-items: center;
+}
+
+section#menu>header>span{
+    margin-left: 15px;
+    font-family: 'Saiyan-Sans', serif;
+}
+
+nav>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header>nav{
+    background-color: #FDA402;
+    padding: 7px 10px;
+}
+
+header>nav>span{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+header>nav>span+span{
+    text-decoration: underline;
+}
