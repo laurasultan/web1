@@ -24,6 +24,12 @@ p{
     margin-bottom: 5px;
 }
 
+footer{
+    background-color: #E55E2E;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 /* Identificadores e classes */
 section#menu{
     background-color: #E55E2E;
@@ -95,11 +101,6 @@ main>div>h1{
 .card h2{
     color: #7FCB07;
     font-size: 16px;
-}
-
-footer{
-    background-color: #E55E2E;
-    padding: 10px;
 }
 
 footer>p{
