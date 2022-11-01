@@ -19,6 +19,11 @@ main{
     width: 95vw;
 }
 
+p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
 /* Identificadores e classes */
 section#menu{
     background-color: #E55E2E;
