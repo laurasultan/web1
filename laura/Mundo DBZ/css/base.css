@@ -14,6 +14,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+main{
+    margin: 0 auto;
+    width: 95vw;
+}
+
 /* Identificadores e classes */
 section#menu{
     background-color: #E55E2E;
@@ -71,7 +76,6 @@ header>nav>span+span{
 
 main>div{
     background-color: #7FCB07;
-    width: 75vw; /* Cerca de 75% da tela */
     margin: 30px auto; /* Centralizando a div */
     padding: 10px;
     border-radius: 5px;
@@ -83,7 +87,7 @@ main>div>h1{
     text-align: center;
 }
 
-.card>h2{
+.card h2{
     color: #7FCB07;
     font-size: 16px;
 }
