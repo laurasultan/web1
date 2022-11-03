@@ -15,12 +15,21 @@
         }
         .card{
             display: flex;
-            flex-basis: 340px;
+            flex-basis: 340px; /* Substitui o width em elementos Flex */
         }
         .card > img{
             width: 80px;
             max-height: 52px;
             margin-right: 35px;
+        }
+        li{
+            font-size: 12px;
+        }
+        .card:nth-child(odd){ 
+            max-height: 210px;
+        }
+        ol{
+            list-style-image: url('../img/EsferaDoDragao.png');
         }
     </style>
 </head>
