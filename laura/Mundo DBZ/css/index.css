@@ -29,3 +29,17 @@ main{
 #box_four{
     background-image: url('../img/personagens.png');
 }
+
+.box>div{
+    background-color: rgb(172, 1, 23, .8);
+    height: 80px;
+    padding: 20px;
+}
+
+.box>div>a{
+    font-family: 'Saiyan-Sans';
+    color: #FFFFFF;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
