@@ -1,0 +1,31 @@
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(2, 380px);
+    row-gap: 60px;
+    column-gap: 100px;
+    padding: 40px 30px;
+}
+
+.box{
+    border: 3px solid #AC0117;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#box_one{
+    background-image: url('../img/historia.png');
+}
+
+#box_two{
+    background-image: url('../img/akira.png');
+}
+
+#box_three{
+    background-image: url('../img/galeria.png');
+}
+
+#box_four{
+    background-image: url('../img/personagens.png');
+}
