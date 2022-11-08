@@ -12,6 +12,7 @@ main{
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #box_one{
@@ -30,13 +31,15 @@ main{
     background-image: url('../img/personagens.png');
 }
 
-.box>div{
+.box > div{
     background-color: rgb(172, 1, 23, .8);
     height: 80px;
     padding: 20px;
+    position: absolute;
+    bottom: 0;
 }
 
-.box>div>a{
+.box > div > a{
     font-family: 'Saiyan-Sans';
     color: #FFFFFF;
     font-size: 40px;
