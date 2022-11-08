@@ -24,11 +24,11 @@ main{
 }
 
 #box_three{
-    background-image: url('../img/galeria.png');
+    background-image: url('../img/personagens.png');
 }
 
 #box_four{
-    background-image: url('../img/personagens.png');
+    background-image: url('../img/galeria.png');
 }
 
 .box > div{
